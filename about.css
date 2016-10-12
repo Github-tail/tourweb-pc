@@ -1,0 +1,24 @@
+
+#container .about h2 {
+	height: 40px;
+	line-height: 40px;
+	font-size: 30px;
+	font-weight: normal;
+	border-bottom: 1px dashed #999;
+	padding: 0 0 15px 0;
+}
+
+#container .about p {
+font-size: 20px;
+color: #666;
+line-height: 2;
+margin: 20px 0;
+text-indent: 2em;
+}
+#container .about address {
+font-style: normal;
+font-size: 20px;
+color: #666;
+margin: 20px 0;
+line-height: 1.6;
+}

@@ -1,0 +1,132 @@
+
+
+#search{
+	min-width: 1263px;
+	width: 100%;
+	height: 600px;
+	background: url(img/search.jpg);
+	position: relative;
+}
+
+#search .center{
+	width: 600px;
+	height: 60px;
+	background-color: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -30px 0 0 -300px;
+	opacity: 0.6;
+	border-radius: 10px;
+}
+#search .search{
+	width: 446px;
+	height: 54px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 -295px;
+	border-radius: 10px;
+	border: 1px solid #666;
+	font-size: 24px;
+	color: #666;
+	padding: 0 10px;
+	outline: none;
+}
+
+#search .button{
+	width: 120px;
+	height: 54px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 175px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 22px;
+	border: none;
+	color: #666;
+	font-weight: bold;
+	outline: none;
+	background-color: #eee;
+}
+
+#tour{
+	width: 1263px;
+	height: 1150px;
+	text-align: center;
+	margin: 30px auto;
+}
+#tour .center{
+	text-align: center;
+}
+
+#tour .center h1{
+	font-size: 45px;
+	color: #666;
+	margin: 10px 0;
+}
+
+#tour .center p{
+	color: #666;
+	margin: 10px 0;
+}
+
+#tour figure{
+	border: 1px solid #ddd;
+	display: inline-block;
+	width: 380px;
+	border-radius: 4px;
+	position: relative;
+	text-align: left;
+	padding: 4px;
+	margin: 15px 12px;
+}
+
+#tour figure img{
+	vertical-align: middle;
+}
+#tour figure figcaption{
+	font-size: 14px;
+	color: #777;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	padding: 7px 0 5px 0;
+}
+
+.title{
+	color: #333;
+	font-weight: normal;
+}
+.price{
+	color: #f60;
+	font-size: 14px;
+}
+
+.price strong{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.sat{
+	float: right;
+	color: #999;
+	font-size: 13px;
+	font-style: normal;
+	position: relative;
+	right: 5px;
+	top: 5px;
+}
+.type{
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	background-color: #59b200;
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 1px;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+}
+
